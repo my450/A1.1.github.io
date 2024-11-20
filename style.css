@@ -1,0 +1,900 @@
+html{
+    width: 100vw;
+    height: fit-content;
+}
+.massive-container .landingPage {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    position: relative;
+    background-image: url(image/title_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .title {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.massive-container .author {
+    position: relative;
+    width: fit-content;
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 60px;
+    font-style: normal;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+    white-space: nowrap;
+}
+
+.massive-container .butterfly-bottom {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 70%;
+    left: 20%;
+    object-fit: cover;
+}
+
+.massive-container .butterfly-top {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 20%;
+    left: 40%;
+}
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: flex-start;
+    gap: 356px;
+    padding: 59px 67px;
+    position: relative;
+    background-image: url(image/2nd_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+  
+.container-1 .cau-12 {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+  
+.container-1 .cau-1-wrapper {
+    display: flex;
+    width: 439px;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+  
+.text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+}
+  
+.container-1 .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -36px;
+    font-family: "tangier", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ff4a74;
+    font-size: 60px;
+    text-align: right;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+}
+  
+.container-1 .cau-2 {
+    display: flex;
+    width: 439px;
+    align-items: flex-start;
+    margin-top: -12px;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+  
+.container-1 .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "garamond-premier-pro-display", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+}
+  
+.container-1 .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -36px;
+    font-family: "tangier", sans-serif;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 60px;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+}
+  
+.container-1 .cau-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+  
+.container-1 .cau-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 70px 0px 0px;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+}
+  
+.container-1 .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+    white-space: nowrap;
+}
+  
+.container-1 .u-grew-drunk-on {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -12px;
+}
+  
+.container-1 .text-wrapper-5 {
+    position: relative;
+    width: 150px;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+}
+  
+.container-1 .text-wrapper-6 {
+    position: relative;
+    width: 141px;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-ItalicDisplay", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+}
+  
+.container-1 .her-sweet-perfume {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -28px;
+}
+  
+.container-1 .her {
+    position: relative;
+    width: fit-content;
+    font-family: "Garamond Premier Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #800421;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+    white-space: nowrap;
+}
+  
+.container-1 .span {
+    color: #ffffff;
+    letter-spacing: -0.28px;
+}
+  
+.container-1 .text-wrapper-7 {
+    font-family: "Garamond Premier Pro-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: -0.28px;
+}
+  
+.container-1 .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 60px;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+    white-space: nowrap;
+}
+  
+.container-1 .sparkle {
+    position: absolute;
+    width: 1249px;
+    height: 789px;
+    top: 118px;
+    left: 96px;
+    object-fit: cover;
+}
+  
+.container-1 .butterfly-top {
+    position: absolute;
+    width: 73px;
+    height: 86px;
+    top: 182px;
+    left: 721px;
+}
+  
+.container-1 .butterfly {
+    position: absolute;
+    width: 205px;
+    height: 129px;
+    top: 721px;
+    left: 195px;
+}
+  
+.container-1 .img {
+    position: absolute;
+    width: 205px;
+    height: 129px;
+    top: 570px;
+    left: 441px;
+}
+  
+.container-1 .butterfly-2 {
+    position: absolute;
+    width: 205px;
+    height: 129px;
+    top: 282px;
+    left: 1102px;
+}
+
+.massive-container .div {
+    display: flex;
+    height: 1024px;
+    align-items: center;
+    padding: 0px 96px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-image: url(image/2nd_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .div-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .cau {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .cau-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .cau-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .text-wrapper {
+    width: fit-content;
+    line-height: 67.5px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+}
+
+.massive-container .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -16px;
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 60px;
+    text-align: right;
+    letter-spacing: -0.66px;
+    line-height: 81.0px;
+}
+
+.massive-container .her-leaves-all-wet {
+    position: relative;
+    align-self: stretch;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: -0.55px;
+    line-height: 72.5px;
+}
+
+.massive-container .a-new-romance {
+    position: relative;
+    width: fit-content;
+    margin-top: -19px;
+    font-family: "Tangier-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff4a74;
+    font-size: 60px;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+    white-space: nowrap;
+}
+
+.massive-container .cau-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-self: stretch;
+    width: 100%;
+    margin-top: -23px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    z-index: 1;
+    font-family: "Tangier-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff4a74;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+    white-space: nowrap;
+}
+
+.massive-container .he-loved-her-too {
+    position: relative;
+    align-self: stretch;
+    margin-top: -22px;
+    z-index: 0;
+    font-family: "Garamond Premier Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -0.55px;
+    line-height: 72.5px;
+}
+
+.massive-container .span {
+    color: #ffffff;
+    letter-spacing: -0.28px;
+}
+
+.massive-container .text-wrapper-4 {
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 60px;
+    letter-spacing: -0.40px;
+    line-height: 87.0px;
+}
+
+.massive-container .img-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.massive-container .record-handle {
+    position: absolute;
+    width: 664px;
+    height: 630px;
+    top: 199px;
+    left: 776px;
+}
+
+.massive-container .wind {
+    position: absolute;
+    width: 144px;
+    height: 102px;
+    top: 273px;
+    left: 688px;
+}
+
+.massive-container .cutted-wind {
+    position: absolute;
+    width: 131px;
+    height: 93px;
+    top: 429px;
+    left: 976px;
+}
+
+.massive-container .cau-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        rgb(253, 190, 193) 1.72%,
+        rgb(108.45, 73.33, 74.09) 63.6%,
+        rgb(58.97, 33.05, 33.05) 96.46%
+    );
+}
+
+.massive-container .cau-5 {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 18px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: -0.88px;
+    line-height: 101.6px;
+    white-space: nowrap;
+}
+
+.massive-container .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 80px;
+    letter-spacing: -0.88px;
+    line-height: 120px;
+    white-space: nowrap;
+}
+
+.massive-container .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -12px;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: -0.88px;
+    line-height: 120px;
+    white-space: nowrap;
+}
+
+.massive-container .container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1878px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px 0px;
+    padding: 20px 108px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        rgb(59, 34, 34) 1.22%,
+        rgb(58.97, 33.05, 33.05) 7.33%,
+        rgb(13, 13, 13) 100%
+    );
+}
+
+.massive-container .img-3 {
+    position: absolute;
+    width: 2075px;
+    height: 1508px;
+    top: 528px;
+    left: -316px;
+    object-fit: cover;
+}
+
+.massive-container .back-blood {
+    position: absolute;
+    width: 2090px;
+    height: 1486px;
+    top: 343px;
+    left: -323px;
+    object-fit: cover;
+}
+
+.massive-container .rose {
+    position: absolute;
+    width: 948px;
+    height: 1301px;
+    top: 367px;
+    left: 363px;
+    object-fit: cover;
+}
+
+.massive-container .a {
+    display: flex;
+    width: 140px;
+    height: 194px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 114px;
+    left: 1073px;
+    border-radius: 6px;
+    background-image: url(image/dark_rose_img2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Garamond Premier Pro-ItalicDisplay", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: -0.88px;
+    line-height: 120px;
+    white-space: nowrap;
+}
+
+.massive-container .all {
+    display: flex;
+    flex-direction: column;
+    width: 253px;
+    height: 310px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 493px;
+    left: 121px;
+    border-radius: 6px;
+    background-image: url(image/dark_img1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .blur {
+    display: flex;
+    flex-direction: column;
+    width: 221px;
+    height: 341px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 427px;
+    left: 1112px;
+    border-radius: 6px;
+    background-image: url(image/dark_rose_img3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .her-face {
+    display: flex;
+    width: 270px;
+    height: 197px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 114px;
+    left: 217px;
+    border-radius: 6px;
+    background-image: url(image/dark_rose_img4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .for-now {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 324px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-LightDisplay", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+    white-space: nowrap;
+}
+
+.massive-container .like-a-memory-kept {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 7px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: -0.88px;
+    line-height: 104.0px;
+    white-space: nowrap;
+}
+
+.massive-container .is {
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 173px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 179px;
+    left: 655px;
+    border-radius: 6px;
+    background-image: url(image/dark_rose_img5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .blood {
+    position: absolute;
+    width: 1754px;
+    height: 1504px;
+    top: 334px;
+    left: -155px;
+    object-fit: cover;
+}
+
+.massive-container .font {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 1495px;
+    left: 121px;
+}
+
+.massive-container .text-wrapper-10 {
+    align-self: stretch;
+    line-height: 75px;
+    position: relative;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+}
+
+.massive-container .truly-loved-a-rose {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 165px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -27px;
+}
+
+.massive-container .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 60px;
+    letter-spacing: -0.66px;
+    line-height: 90px;
+    white-space: nowrap;
+}
+
+.massive-container .cau-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -21px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.massive-container .and-bled-against-her {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Garamond Premier Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+    white-space: nowrap;
+}
+
+.massive-container .text-wrapper-12 {
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: -0.40px;
+    line-height: 90px;
+}
+
+.massive-container .text-wrapper-13 {
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff4a74;
+    font-size: 60px;
+    letter-spacing: -0.40px;
+    line-height: 90px;
+}
+
+.massive-container .text-wrapper-14 {
+    font-family: "Tangier-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.28px;
+}
+
+.massive-container .and-swear-each-night {
+    position: relative;
+    width: fit-content;
+    margin-top: -4px;
+    font-family: "Tangier-Medium", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 50px;
+    letter-spacing: -0.55px;
+    line-height: 75px;
+    white-space: nowrap;
+}
+
+.massive-container .text-wrapper-15 {
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: -0.28px;
+}
+
+.massive-container .text-wrapper-16 {
+    font-family: "Garamond Premier Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: -0.28px;
+}
+
+.massive-container .text-wrapper-17 {
+    font-family: "Garamond Premier Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ff4a74;
+    letter-spacing: -0.28px;
+}
+
+.massive-container .contaner {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1024px;
+    align-items: center;
+    padding: 350px 0px 0px;
+    position: relative;
+    background-color: #0d0d0d;
+    background-image: url(image/bg_rose.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.massive-container .then-love-her-more {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Tangier-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 80px;
+    letter-spacing: -0.88px;
+    line-height: 120px;
+    white-space: nowrap;
+}
+
+.massive-container .text-wrapper-18 {
+    color: #ffffff;
+    letter-spacing: -0.70px;
+}
+
+.massive-container .text-wrapper-19 {
+    color: #ff4a74;
+    letter-spacing: -0.70px;
+}
